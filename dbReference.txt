@@ -1,0 +1,11 @@
+db.resume.insertOne({
+  name: "Jane Doe",
+  title: "Frontend Developer",
+  education: [
+    { school: "XYZ University", degree: "BS Computer Science", years: "2015-2019" }
+  ],
+  experience: [
+    { company: "ABC Corp", role: "Frontend Dev", years: "2019-2022", projects: ["Website redesign", "UI library"] }
+  ],
+  skills: ["JavaScript", "React", "NextJS"]
+})
